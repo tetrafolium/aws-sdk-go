@@ -5,8 +5,8 @@ package lambdaiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/aws/aws-sdk-go/service/lambda/lambdaiface"
+	"github.com/tetrafolium/aws-sdk-go/service/lambda"
+	"github.com/tetrafolium/aws-sdk-go/service/lambda/lambdaiface"
 	"github.com/stretchr/testify/assert"
 )
 

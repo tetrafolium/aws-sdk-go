@@ -2,8 +2,8 @@
 package ssm
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/ssm"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/ssm"
 	. "github.com/lsegal/gucumber"
 )
 

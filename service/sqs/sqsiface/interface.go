@@ -4,8 +4,8 @@
 package sqsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/sqs"
 )
 
 // SQSAPI is the interface type for sqs.SQS.

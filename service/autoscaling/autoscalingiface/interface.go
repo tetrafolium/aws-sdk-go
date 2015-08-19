@@ -4,8 +4,8 @@
 package autoscalingiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/autoscaling"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/autoscaling"
 )
 
 // AutoScalingAPI is the interface type for autoscaling.AutoScaling.

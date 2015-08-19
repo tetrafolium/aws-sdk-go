@@ -5,8 +5,8 @@ package devicefarmiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/devicefarm"
-	"github.com/aws/aws-sdk-go/service/devicefarm/devicefarmiface"
+	"github.com/tetrafolium/aws-sdk-go/service/devicefarm"
+	"github.com/tetrafolium/aws-sdk-go/service/devicefarm/devicefarmiface"
 	"github.com/stretchr/testify/assert"
 )
 

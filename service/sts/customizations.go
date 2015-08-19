@@ -1,6 +1,6 @@
 package sts
 
-import "github.com/aws/aws-sdk-go/aws/service"
+import "github.com/tetrafolium/aws-sdk-go/aws/service"
 
 func init() {
 	initRequest = func(r *service.Request) {

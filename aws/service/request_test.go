@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/tetrafolium/aws-sdk-go/aws"
+	"github.com/tetrafolium/aws-sdk-go/aws/awserr"
+	"github.com/tetrafolium/aws-sdk-go/aws/credentials"
 	"github.com/stretchr/testify/assert"
 )
 

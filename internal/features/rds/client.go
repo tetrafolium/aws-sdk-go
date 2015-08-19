@@ -2,8 +2,8 @@
 package rds
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/rds"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/rds"
 	. "github.com/lsegal/gucumber"
 )
 

@@ -10,10 +10,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/protocol/jsonrpc"
-	"github.com/aws/aws-sdk-go/internal/protocol/rest"
+	"github.com/tetrafolium/aws-sdk-go/aws/awserr"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/jsonrpc"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/rest"
 )
 
 // Build builds a request for the REST JSON protocol.

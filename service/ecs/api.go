@@ -6,8 +6,8 @@ package ecs
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/aws/awsutil"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
 )
 
 const opCreateCluster = "CreateCluster"
@@ -3316,7 +3316,7 @@ func (s UpdateServiceOutput) GoString() string {
 // instance.
 type VersionInfo struct {
 	// The Git commit hash for the Amazon ECS container agent build on the amazon-ecs-agent
-	//  (https://github.com/aws/amazon-ecs-agent/commits/master) GitHub repository.
+	//  (https://github.com/tetrafolium/amazon-ecs-agent/commits/master) GitHub repository.
 	AgentHash *string `locationName:"agentHash" type:"string"`
 
 	// The version number of the Amazon ECS container agent.

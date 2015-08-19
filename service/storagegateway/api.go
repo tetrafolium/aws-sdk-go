@@ -6,8 +6,8 @@ package storagegateway
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/aws/awsutil"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
 )
 
 const opActivateGateway = "ActivateGateway"

@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/tetrafolium/aws-sdk-go/aws"
+	"github.com/tetrafolium/aws-sdk-go/aws/credentials"
+	"github.com/tetrafolium/aws-sdk-go/aws/credentials/ec2rolecreds"
 )
 
 // DefaultChainCredentials is a Credentials which will find the first available

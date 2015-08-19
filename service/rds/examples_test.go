@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/service/rds"
+	"github.com/tetrafolium/aws-sdk-go/aws"
+	"github.com/tetrafolium/aws-sdk-go/aws/awserr"
+	"github.com/tetrafolium/aws-sdk-go/aws/awsutil"
+	"github.com/tetrafolium/aws-sdk-go/service/rds"
 )
 
 var _ time.Duration

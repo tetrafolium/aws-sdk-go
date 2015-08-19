@@ -6,9 +6,9 @@ package dynamodbstreams
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/tetrafolium/aws-sdk-go/aws/awsutil"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/dynamodb"
 )
 
 const opDescribeStream = "DescribeStream"

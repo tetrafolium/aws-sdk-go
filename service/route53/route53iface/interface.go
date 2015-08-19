@@ -4,8 +4,8 @@
 package route53iface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/route53"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/route53"
 )
 
 // Route53API is the interface type for route53.Route53.

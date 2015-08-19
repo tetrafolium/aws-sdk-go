@@ -150,7 +150,7 @@ func (a *API) ShapeList() []*Shape {
 // resetImports resets the import map to default values.
 func (a *API) resetImports() {
 	a.imports = map[string]bool{
-		"github.com/aws/aws-sdk-go/aws": true,
+		"github.com/tetrafolium/aws-sdk-go/aws": true,
 	}
 }
 
@@ -206,9 +206,9 @@ var tplAPI = template.Must(template.New("api").Parse(`
 // APIGoCode renders the API in Go code. Returning it as a string
 func (a *API) APIGoCode() string {
 	a.resetImports()
-	delete(a.imports, "github.com/aws/aws-sdk-go/aws")
-	a.imports["github.com/aws/aws-sdk-go/aws/awsutil"] = true
-	a.imports["github.com/aws/aws-sdk-go/aws/service"] = true
+	delete(a.imports, "github.com/tetrafolium/aws-sdk-go/aws")
+	a.imports["github.com/tetrafolium/aws-sdk-go/aws/awsutil"] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/aws/service"] = true
 	var buf bytes.Buffer
 	err := tplAPI.Execute(&buf, a)
 	if err != nil {
@@ -279,11 +279,11 @@ func (c *{{ .StructName }}) newRequest(op *service.Operation, params, data inter
 // ServiceGoCode renders service go code. Returning it as a string.
 func (a *API) ServiceGoCode() string {
 	a.resetImports()
-	a.imports["github.com/aws/aws-sdk-go/aws"] = true
-	a.imports["github.com/aws/aws-sdk-go/aws/defaults"] = true
-	a.imports["github.com/aws/aws-sdk-go/aws/service"] = true
-	a.imports["github.com/aws/aws-sdk-go/internal/signer/v4"] = true
-	a.imports["github.com/aws/aws-sdk-go/internal/protocol/"+a.ProtocolPackage()] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/aws"] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/aws/defaults"] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/aws/service"] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/internal/signer/v4"] = true
+	a.imports["github.com/tetrafolium/aws-sdk-go/internal/protocol/"+a.ProtocolPackage()] = true
 
 	var buf bytes.Buffer
 	err := tplService.Execute(&buf, a)
@@ -307,10 +307,10 @@ func (a *API) ExampleGoCode() string {
 		"bytes",
 		"fmt",
 		"time",
-		"github.com/aws/aws-sdk-go/aws",
-		"github.com/aws/aws-sdk-go/aws/awserr",
-		"github.com/aws/aws-sdk-go/aws/awsutil",
-		"github.com/aws/aws-sdk-go/service/"+a.PackageName(),
+		"github.com/tetrafolium/aws-sdk-go/aws",
+		"github.com/tetrafolium/aws-sdk-go/aws/awserr",
+		"github.com/tetrafolium/aws-sdk-go/aws/awsutil",
+		"github.com/tetrafolium/aws-sdk-go/service/"+a.PackageName(),
 		strings.Join(exs, "\n\n"),
 	)
 	return code
@@ -332,8 +332,8 @@ type {{ .StructName }}API interface {
 func (a *API) InterfaceGoCode() string {
 	a.resetImports()
 	a.imports = map[string]bool{
-		"github.com/aws/aws-sdk-go/aws/service":                true,
-		"github.com/aws/aws-sdk-go/service/" + a.PackageName(): true,
+		"github.com/tetrafolium/aws-sdk-go/aws/service":                true,
+		"github.com/tetrafolium/aws-sdk-go/service/" + a.PackageName(): true,
 	}
 
 	var buf bytes.Buffer
@@ -358,8 +358,8 @@ func (a *API) InterfaceTestGoCode() string {
 	a.resetImports()
 	a.imports = map[string]bool{
 		"testing": true,
-		"github.com/aws/aws-sdk-go/service/" + a.PackageName():                                  true,
-		"github.com/aws/aws-sdk-go/service/" + a.PackageName() + "/" + a.InterfacePackageName(): true,
+		"github.com/tetrafolium/aws-sdk-go/service/" + a.PackageName():                                  true,
+		"github.com/tetrafolium/aws-sdk-go/service/" + a.PackageName() + "/" + a.InterfacePackageName(): true,
 		"github.com/stretchr/testify/assert":                                                    true,
 	}
 

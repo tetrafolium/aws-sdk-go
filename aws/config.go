@@ -3,7 +3,7 @@ package aws
 import (
 	"net/http"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/tetrafolium/aws-sdk-go/aws/credentials"
 )
 
 // The default number of retries for a service. The value of -1 indicates that

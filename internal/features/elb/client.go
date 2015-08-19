@@ -2,8 +2,8 @@
 package elb
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/elb"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/elb"
 	. "github.com/lsegal/gucumber"
 )
 

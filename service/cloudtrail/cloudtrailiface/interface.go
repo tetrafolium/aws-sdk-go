@@ -4,8 +4,8 @@
 package cloudtrailiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/cloudtrail"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/cloudtrail"
 )
 
 // CloudTrailAPI is the interface type for cloudtrail.CloudTrail.

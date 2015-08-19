@@ -4,8 +4,8 @@
 package mobileanalyticsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/mobileanalytics"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/mobileanalytics"
 )
 
 // MobileAnalyticsAPI is the interface type for mobileanalytics.MobileAnalytics.

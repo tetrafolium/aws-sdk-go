@@ -6,8 +6,8 @@ package directoryservice
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/aws/awsutil"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
 )
 
 const opConnectDirectory = "ConnectDirectory"

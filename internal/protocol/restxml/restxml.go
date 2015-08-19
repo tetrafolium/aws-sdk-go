@@ -9,11 +9,11 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/protocol/query"
-	"github.com/aws/aws-sdk-go/internal/protocol/rest"
-	"github.com/aws/aws-sdk-go/internal/protocol/xml/xmlutil"
+	"github.com/tetrafolium/aws-sdk-go/aws/awserr"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/query"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/rest"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/xml/xmlutil"
 )
 
 // Build builds a request payload for the REST XML protocol.

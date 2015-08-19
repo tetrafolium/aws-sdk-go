@@ -4,8 +4,8 @@
 package machinelearningiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/machinelearning"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/machinelearning"
 )
 
 // MachineLearningAPI is the interface type for machinelearning.MachineLearning.

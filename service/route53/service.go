@@ -3,11 +3,11 @@
 package route53
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/protocol/restxml"
-	"github.com/aws/aws-sdk-go/internal/signer/v4"
+	"github.com/tetrafolium/aws-sdk-go/aws"
+	"github.com/tetrafolium/aws-sdk-go/aws/defaults"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/internal/protocol/restxml"
+	"github.com/tetrafolium/aws-sdk-go/internal/signer/v4"
 )
 
 // Route53 is a client for Route 53.

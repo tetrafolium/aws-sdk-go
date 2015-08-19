@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/test/unit"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/tetrafolium/aws-sdk-go/aws"
+	"github.com/tetrafolium/aws-sdk-go/aws/awserr"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/internal/test/unit"
+	"github.com/tetrafolium/aws-sdk-go/service/sqs"
 	"github.com/stretchr/testify/assert"
 )
 

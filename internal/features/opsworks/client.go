@@ -2,8 +2,8 @@
 package opsworks
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/opsworks"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/opsworks"
 	. "github.com/lsegal/gucumber"
 )
 

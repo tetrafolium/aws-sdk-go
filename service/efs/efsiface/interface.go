@@ -4,8 +4,8 @@
 package efsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/efs"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/efs"
 )
 
 // EFSAPI is the interface type for efs.EFS.

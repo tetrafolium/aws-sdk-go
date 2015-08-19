@@ -5,8 +5,8 @@ package kmsiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
+	"github.com/tetrafolium/aws-sdk-go/service/kms"
+	"github.com/tetrafolium/aws-sdk-go/service/kms/kmsiface"
 	"github.com/stretchr/testify/assert"
 )
 

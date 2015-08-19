@@ -2,8 +2,8 @@
 package sqs
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/sqs"
 	. "github.com/lsegal/gucumber"
 )
 

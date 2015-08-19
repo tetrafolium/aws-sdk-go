@@ -2,8 +2,8 @@
 package codecommit
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/codecommit"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/codecommit"
 	. "github.com/lsegal/gucumber"
 )
 

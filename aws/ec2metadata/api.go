@@ -3,7 +3,7 @@ package ec2metadata
 import (
 	"path"
 
-	"github.com/aws/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
 )
 
 // GetMetadata uses the path provided to request

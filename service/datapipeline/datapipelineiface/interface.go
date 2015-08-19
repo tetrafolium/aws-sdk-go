@@ -4,8 +4,8 @@
 package datapipelineiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/service/datapipeline"
+	"github.com/tetrafolium/aws-sdk-go/aws/service"
+	"github.com/tetrafolium/aws-sdk-go/service/datapipeline"
 )
 
 // DataPipelineAPI is the interface type for datapipeline.DataPipeline.

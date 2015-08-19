@@ -2,8 +2,8 @@
 package elasticache
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/elasticache"
+	"github.com/tetrafolium/aws-sdk-go/internal/features/shared"
+	"github.com/tetrafolium/aws-sdk-go/service/elasticache"
 	. "github.com/lsegal/gucumber"
 )
 
